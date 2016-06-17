@@ -1,13 +1,13 @@
 cask 'santa' do
-  version '0.9.9'
-  sha256 '618f8d70715771de5651f0b2a57e98e20e8d272009fafbdc0968d9e022fae8d7'
+  version '0.9.11'
+  sha256 '6756fbadee4a5e1f8a69772e4063a3688d4e85edb31063c2cc11e021a9b38619'
 
   url "https://github.com/google/santa/releases/download/#{version}/santa-#{version}.dmg"
   name 'Santa'
   homepage 'https://github.com/google/santa/'
   license :apache
 
-  pkg 'santa-0.9.9.pkg'
+  pkg 'santa-0.9.11.pkg'
 
   uninstall launchctl: [
                         'com.google.santad',
