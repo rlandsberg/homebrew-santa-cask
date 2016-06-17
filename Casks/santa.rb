@@ -1,6 +1,6 @@
 cask 'santa' do
   version '0.9.11'
-  sha256 '6756fbadee4a5e1f8a69772e4063a3688d4e85edb31063c2cc11e021a9b38619'
+  sha256 :no_check
 
   url "https://github.com/google/santa/releases/download/#{version}/santa-#{version}.dmg"
   name 'Santa'
